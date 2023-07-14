@@ -14,6 +14,7 @@ export class News extends Component {
     country: PropTypes.string,
     pageSize: PropTypes.number,
     category: PropTypes.string,
+    apikey: PropTypes.string,
   };
 
   constructor() {

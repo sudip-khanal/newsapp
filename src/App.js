@@ -7,7 +7,7 @@ import News from "./Components/News";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default class App extends Component {
-  apikey = process.env.REACT_NEWS_APP_API;
+  apikey = "b6e374a1896c496c885c993da4955972";
 
   render() {
     return (
